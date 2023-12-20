@@ -1,0 +1,33 @@
+.navbar-main{
+    display: flex;
+    padding-inline: 40px;
+    align-items: center;
+
+}
+.details-details-l1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 20px;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+    width: 100vw;
+}
+
+.navbar-main span{
+    font-size: larger;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+.navbar-main span:hover{
+    background-color: rgb(238, 141, 30);
+}

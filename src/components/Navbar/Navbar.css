@@ -1,0 +1,13 @@
+.navbar-main{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding-inline: 30px;
+}
+.navbar-tabs{
+    display: flex;
+    gap: 40px;
+ 
+}
